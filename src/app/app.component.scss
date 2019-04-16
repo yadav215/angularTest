@@ -1,0 +1,41 @@
+.main_container {
+	width: auto;
+	height: 100%;
+	padding: 10px;
+	display: flex;
+}
+
+.reciept_box_container {
+	height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.light_box_container {
+	width: 300px;
+    margin-top: 20px;
+}
+
+.sub_header {
+	height: 40px;
+    background-color: dimgrey;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.left_panel {
+	width: 40%;
+	background-color: lightgray;
+}
+
+.right_panel {
+	width: 60%;
+	background-color: lightgray;
+	margin-left: 5px;
+}

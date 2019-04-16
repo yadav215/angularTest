@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularTest';
+  numbers: any = [];
+  index: number;
+
+  ngOnInit() {
+    for (this.index = 0; this.index < 1000; this.index++) {
+      this.numbers.push(this.index);
+    }
+  }
 }
